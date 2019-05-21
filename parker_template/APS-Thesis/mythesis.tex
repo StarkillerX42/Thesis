@@ -1,0 +1,109 @@
+% !TEX TS-program = pdflatex
+% !TEX encoding = UTF-8 Unicode
+% !TEX spellcheck = en_US
+% !BIB TS-program = natbib
+\documentclass[defaultstyle,11pt]{apsthesis}
+
+\usepackage{amssymb}		% to get all AMS symbols
+\usepackage{graphicx}		% to insert figures
+\usepackage{hyperref}		% PDF hyperreferences??
+\usepackage[authoryear, sort]{natbib} % For citations
+\usepackage[yyyymmdd]{datetime} % For YYYY-MM-DD dates
+\usepackage{siunitx}        % Proper unit notation
+%%% The following are unnecessary, but they give lots of flexibility
+% \usepackage{todonotes}      % In case you want to work on something later
+% \usepackage[nice]{nicefrac} % For inline fractions
+% \usepackage{multicol}       % For twocolumn equations
+% \usepackage{multirow}       % For complicated tables
+% \usepackage{amsmath}        % For calculus notation like partials and derivatives
+% \usepackage{commath}        % Companion to amsmath
+% \usepackage{textcomp}
+
+\input macros.tex           % For defining common symbols
+
+%%%%%%%%%%%%   All the preamble material:   %%%%%%%%%%%%
+
+\title{This is the Name of my Thesis}
+
+\author{I.~B.}{Scriptor}
+
+% \otherdegrees{B.A., North Dakota State University, 2005 \\
+% 	      M.S., University of Reno, 2007}
+
+ \degree{Bachelor of Arts}		%  #1 {long descr.}
+	{Ph.D., Rocket Science}		%  #2 {short descr.}
+
+\dept{Department of}			%  #1 {designation}
+	{Rocket Science}		%  #2 {name}
+
+\advisor{Prof.}				%  #1 {title}
+	{Ed Visor}			%  #2 {name}
+\advisordept{Astrophysical and Planetary Science}
+
+\reader{Prof.~Rachel Goddard}		%  2nd person to sign thesis
+\readerThree{Ms.~Thora Nea}		%  3rd person to sign thesis
+
+\reader{Prof. Department Core-Dinator}		%  2nd person to sign thesis
+\readerdept{Astrophysical and Planetary Sciences}
+\readerThree{Prof.~Rachel Goddard}  % 3rd person to sign thesis
+\readerThreedept{Physics}
+\readerFour{Ms.~Thora Nea}
+\readerFourdept{Biology}
+
+\defenseDate{\formatdate{3}{5}{2019}} % (m)m (d)d yyyy
+
+\abstract{  \OnePageChapter	% because it is very short
+
+	Often the abstract will be long enough to require
+	more than one page, in which case the macro
+	``$\backslash$OnePageChapter'' should {\it not}
+	be used.
+
+	But this one isn't, so it should.
+	}
+
+\dedication[Dedication]{	% NEVER use \OnePageChapter here.
+	\begin{center}
+	To all of the fluffy kitties.
+	\end{center}
+	}
+
+\acknowledgements{	\OnePageChapter	% *MUST* BE ONLY ONE PAGE!
+	Here's where you acknowledge folks who helped.
+	But keep it short, i.e., no more than one page,
+	as required by the Grad School Specifications.
+	}
+
+% \IRBprotocol{E927F29.001X}	% optional!
+
+\ToCisShort	% use this only for 1-page Table of Contents
+
+\LoFisShort	% use this only for 1-page Table of Figures
+% \emptyLoF	% use this if there is no List of Figures
+
+\LoTisShort	% use this only for 1-page Table of Tables
+% \emptyLoT	% use this if there is no List of Tables
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%       BEGIN DOCUMENT...         %%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\input chapter1.tex
+\input chapter2.tex
+\input chapter3.tex
+
+%%%%%%%%%   then the Bibliography, if any   %%%%%%%%%
+\bibliographystyle{aasjournal}	% Might require install, check the AAS website
+\nocite{*}		% list all refs in database, cited or not
+\bibliography{refs}		% Bib database in "refs.bib"
+
+%%%%%%%%%   then the Appendices, if any   %%%%%%%%%
+\appendix
+\input appendixA.tex
+\input appendixB.tex
+
+
+\end{document}
+

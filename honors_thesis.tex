@@ -1,0 +1,171 @@
+% !TEX TS-program = pdflatex
+% !TEX encoding = UTF-8 Unicode
+% !TEX spellcheck = en_US
+% !BIB TS-program = natbib
+% Written by Dylan Gatlin (dgatlin5@gmail.com)
+\documentclass[defaultstyle,11pt]{apsthesis}
+
+\usepackage{amssymb}		% to get all AMS symbols
+\usepackage{graphicx}		% to insert figures
+\usepackage{hyperref}		% PDF hyperreferences??
+\usepackage[authoryear, sort]{natbib} % For citations
+\usepackage[yyyymmdd]{datetime} % For YYYY-MM-DD dates
+\usepackage{todonotes}      % In case you want to work on something later
+\usepackage[nice]{nicefrac} % For inline fractions
+\usepackage{multicol}       % For twocolumn equations
+\usepackage{multirow}       % For complicated tables
+\usepackage{amsmath}        % For calculus notation like partials and derivatives
+\usepackage{commath}        % Companion to amsmath
+\usepackage{textcomp}
+\usepackage{siunitx}        % Proper unit notation
+\input macros.tex           % For defining common symbols
+
+%%%%%%%%%%%%   All the preamble material:   %%%%%%%%%%%%
+
+\title{Methods to Detect Habitable Atmospheres on the Terrestrial Exoplanet TRAPPIST-1 e}
+
+\author{D.}{Gatlin}
+
+
+
+\degree{Bachelors in Arts}		%  #1 {long descr.}
+	{B.A., Astrophysics}		%  #2 {short descr.}
+\dept{Department of}			%  #1 {designation}
+	{Astrophysical and Planetary Science}		%  #2 {name}
+
+\advisor{Dr.}				%  #1 {title}
+	{Eric T. Wolf}			%  #2 {name}
+\advisordept{Atmospheric and Oceanic Sciences}
+\reader{Prof. Ann-Marie Madigan}		%  2nd person to sign thesis
+\readerdept{Astrophysical and Planetary Sciences}
+\readerThree{Prof. David Brain}  % 3rd person to sign thesis
+\readerThreedept{Astrophysical and Planetary Sciences}
+\readerFour{Prof. Daniel Jones}
+\readerFourdept{Arts and Sciences Honors Program}
+
+\defenseDate{\formatdate{3}{5}{2019}} % (m)m (d)d yyyy
+
+\abstract{In order to better direct future exoplanetary research, we must be
+ able to accurately predict what telescopes like the James Webb Space Telescope
+ (JWST)
+ will be able to detect. To this effect, NASA's Planetary Spectrum Generator
+ (PSG) can be used to simulate observations, both during exoplanet transits and
+ throughout an exoplanet's year. Such predictions allow us to make informed
+ decisions about how to spend time on JWST and which techniques will allow for
+ different types of analysis. In order to produce the most realistic results from
+ the Planetary Spectrum Generator (PSG), self-consistent three-dimensional climate
+ models of planets in the TRAPPIST-1 system are first used to simulate
+ atmospheres on these tidally locked exoplanets, and understand how they might
+ be different from the climate of Earth.
+
+The TRAPPIST-1 exoplanets are assumed to be tidally locked with the host star.
+ Recent climate modeling studies indicate that there are three distinct types of
+ tidally locked exoplanet atmospheres; slow rotators, fast rotators, and an
+ intermediate regime. Slow rotators have large substellar clouds that remain
+ constant over time. Fast rotators will have a significant Coriolis force,
+ resulting in much smaller substellar clouds and more intense zonal
+ winds which advect clouds to the eastern side of the substellar point. In all
+ cases, the thermal emission of a planet depends strongly on the spatial
+ distribution of clouds, which would change from the perspective of a distant
+ observer over the exoplanet's year.
+
+I have constructed a data pipeline that uses climate models as inputs, then
+ uses the PSG to produce spectra. This pipeline can use a number of
+ climate models on a number of different planets to create
+ transit spectra or thermal phase curves.
+
+When studying terrestrial exoplanets, the most exiting cases are potentially
+ habitable
+ planets. The TRAPPIST-1 system is one of the most likely systems to host a 
+ habitable exoplanet. TRAPPIST-1 e is the most likely habitable planet in the
+ system. The most effective methods for JWST are the transit method and thermal
+ phase curves. The transit method is the most widely used method for detecting
+ exoplanets, and JWST will have high resolution spectrographs that will be able
+ to detect many atmospheric species including \chem{CO_2} and \chem{H_2O}.
+ Additionally, accurate spectra may enable us to infer the
+ surface temperature of a planet.
+
+Transit spectra can tell us a lot about the terminator profile of an atmosphere,
+ but it cannot tell us about other parts of the planet's surface. Transit
+ spectra can also be prone to extinction by clouds or aerosols. Thermal phase
+ curves will observe how the thermal emission of an exoplanet will change
+ over the course of its year, and may be able to detect features like the nature
+ of the substellar cloud, if a planet has entered a runaway greenhouse effect,
+ or a snowball state. Thermal phase curves will look dramatically different for
+ fast rotators like TRAPPIST-1 e compared to slow rotators, and these results
+ can only be simulated with global circulation models used in conjunction with
+ accurate radiative transfer models. Thermal phase curves are also very
+ sensitive to the planet's temperature, and can therefore help determine if a
+ planet is habitable. Future predictions for JWST should
+ incorporate the results from global circulation models, and those models should
+ be accurate to the exoplanets in question. Future observations should also
+ consider thermal phase curves because they will be able to detect a range of
+ different
+ features than transit spectra and will enable us to more effectively understand
+ potentially habitable terrestrial exoplanets.
+}
+
+\dedication[Dedication]{	% NEVER use \OnePageChapter here.
+    \begin{center}To my Grandpa, Dr. Terry Flanagan\\
+    1938 -- 2018
+    \end{center}
+}
+
+\acknowledgements{	\OnePageChapter	% *MUST* BE ONLY ONE PAGE!
+Thank you to my family who helped encourage me on my way to becoming an
+ astrophysicist. To my dad, my mom, and my sister, Mark, Erin, and Carolyn
+ Gatlin. To my girlfriend, Grace Marshall.
+
+Thank you to my advisors, Susan (Astromom) Armstrong and David Brain.
+ To the professors I've worked alongside, Prof. Jeremy Darling and
+ Prof. Seth Hornstein. To
+ my research advisors, Prof. Guy Stringfellow and Dr. Eric Wolf.
+
+Thank you to everyone who read my drafts, Prof. Donald Wilkerson and all my peers
+ in PHYS 3050.
+
+Thank you to my professors Prof. Zach Berta-Thompson, Prof. Nick Schneider,
+ Prof. John Bally,
+ Dr. Mathis Habich, Prof. Melissa Nigro, Prof. Jen Kay, Prof. Peter Pilewskie,
+ and Prof. Alexandra Jahn. To my high school math teacher, Laurie Buchanan.
+
+Thank you to my co-investigators, Dr. Eric Wolf, Dr. Ravi Kopparapu,
+Dr. Geronimo Villanueva, and Dr. Avi Mandell.
+
+\facilities{Exoplanet Archive, Planetary Spectrum Generator}}
+
+% \IRBprotocol{E927F29.001X}	% optional!
+
+\ToCisShort	% use this only for 1-page Table of Contents
+
+\LoFisShort	% use this only for 1-page Table of Figures
+% \emptyLoF	% use this if there is no List of Figures
+
+\LoTisShort	% use this only for 1-page Table of Tables
+% \emptyLoT	% use this if there is no List of Tables
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%       BEGIN DOCUMENT...         %%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\input ./intro/introduction.tex
+\input ./background/background.tex
+\input ./models/models.tex
+\input ./methods/methods.tex
+\input ./spectra/spectra.tex
+\input ./tpc/thermal_phase_curves.tex
+\input ./conclusion/conclusion.tex
+
+%%%%%%%%%   then the Bibliography, if any   %%%%%%%%%
+\bibliographystyle{aasjournal}	% or "siam", or "alpha", etc.
+\nocite{*}		% list all refs in database, cited or not
+\bibliography{thesis_citations}		% Bib database in "refs.bib"
+
+%%%%%%%%%   then the Appendices, if any   %%%%%%%%%
+\appendix
+\input appendix.tex
+
+\end{document}
+

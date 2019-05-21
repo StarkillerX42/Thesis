@@ -1,0 +1,90 @@
+\chapter{Introduction}
+\label{introchap}
+Exoplanetary science is one of the most exciting fields in astrophysics. Until
+ the Kepler mission, it was unknown how
+ common exoplanets may be, but we have since estimated that approximately one
+ third of all F, G, and K stars have at least one terrestrial exoplanet
+ \citep{nexoplanets}. Excitingly, we have found a number of terrestrial
+ exoplanets which resemble Earth in mass, size, and most crucially, solar
+ irradiance. These terrestrial exoplanets are the most likely candidates in the
+ search for habitable worlds beyond Earth, and by extension, the most likely
+ places to discover extraterrestrial life or a future home for humanity. To
+ date, the list of exoplanets in the classical habitable zone is short, and few
+ are close to Earth, but this will soon change with the recently launched
+ Transiting Exoplanet Survey Satellite (TESS). TESS is expected to discover
+ thousands of exoplanets smaller than Neptune and dozens of Earth sized planets,
+ and was optimized for finding planets that are closer to Earth
+ \citep{tesspredict}. In conjunction with the James Webb Space Telescope (JWST),
+ we expect to dramatically improve observations of potentially habitable
+ worlds in nearby star systems.
+
+The most easily detectable exoplanets orbit M-dwarfs, which are very low mass,
+ dim stars. These exoplanets are likely tidally locked due to their close orbit
+ to their host star \citep{dynamicsfate}, meaning they don't rotate relative to
+ their star. The solar system contains no example of such a planet; however, the
+ Earth-Moon system does provide an example as the Moon is tidally locked to
+ Earth. The
+ atmospheres of tidally locked planets behave differently from any atmosphere
+ we are previously
+ familiar with, so the only way to characterize their atmospheres is via global
+ circulation models (GCMs). GCMs were invented to predict
+ weather or climate change, and have proven scientifically valuable for a number
+ of different
+ planets throughout the solar system \citep{venusgcm}. Many astronomers have
+ made predictions of what JWST will see on exoplanets, but most of these
+ predictions assume that habitable exoplanet atmospheres will be replicas of
+ Earth \citep{ostproposal}. However, recent 3D climate modeling experiments
+ demonstrate that exoplanets are typically very different than Earth. For
+ example, an
+ exoplanet that receives approximately the same amount of sunlight as Earth,
+ TRAPPIST-1 d, is less likely to be habitable than TRAPPIST-1 e, a planet that
+ receives only 60\% of the solar irradiance of Earth \citep{wolf18}.
+
+With the launch of JWST on the horizon, it is essential that we know what to
+ expect from observations, and atmospheric models are the best method
+ for constraining predictions. Simply assuming a tidally locked
+ exoplanet will appear identical to Earth is unreasonable and can lead to
+ inaccurate conclusions. Using GCM simulations for planets in the TRAPPIST-1
+ system, we can self-consistently predict what the TRAPPIST-1 exoplanets may look
+ like with regards to cloud distributions, precipitation, and temperature.
+ NASA's Planetary Spectrum Generator (PSG) can then be used to generate spectra
+ for these climate models, giving us more accurate predictions of what JWST
+ might be
+ able to see \citep{psgpaper}. Using the PSG, we can determine which spectral 
+ features would be detectable with JWST and using signal to noise analysis, we
+ will help the astrophysics community prioritize their time with JWST.
+
+In addition to exoplanet transit spectra, GCMs allow us to study exoplanets
+ using other
+ methods, most notably thermal emission phase curves. A GCM provides global
+ resolution of an exoplanet's surface and atmosphere, but only a small fraction
+ of it can be probed via the transit method. The PSG can allow us to measure the
+ thermal emission of the planet as it rotates relative to the Earth over its
+ year. Thermal phase curves measure the change in thermal brightness of an
+ exoplanet as it orbits its star, and can be variable over time. Thermal phase
+ curves have the advantage of providing unique signals depending on the climate
+ of the planet. This technique
+ serves as the best method to resolve features like clouds on exoplanets, and
+ by extension, we may infer details about the planet's climate. Thermal phase
+ curves and transit spectra provide two very unique methods of probing an
+ exoplanet's atmosphere, and together, they will help JWST find habitable worlds
+ beyond Earth.
+
+In this thesis, I will calculate both transit spectra and thermal phase curves
+ of several habitable zone exoplanets, particularly TRAPPIST-1 e. In the
+ following section, Chapter \ref{background}, I will explain the fundamentals of
+ exoplanet research and exoplanet observations, with an emphasis on the
+ variables significant to thermal phase curves and transits. In Chapter
+ \ref{models}, I will review climate models from \citet{wolf17, wolf18}, and
+ particularly focus on the terminator atmosphere profile and the global cloud
+ patterns. I will compare fast rotators and slow rotators, which have
+ dramatically different cloud patterns, and therefore different thermal phase
+ curves. In Chapter \ref{methods}, I will explain the data pipeline around the
+ PSG and the
+ PSG as a tool to simulate spectra. In Chapter \ref{spectra}, I will show
+ transit spectra results, analyze their behavior, and identify and measure
+ prominent features. In Chapter \ref{thermalphasecurves}, I will do the
+ equivalent analysis for thermal phase curves, and compare slow rotators thermal
+ phase curves to fast rotators.
+ In Chapter \ref{conclusion}, I will compare the transit spectra and thermal
+ phase curves, identifying their respective strengths and weaknesses.

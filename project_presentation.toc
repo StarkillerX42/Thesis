@@ -1,0 +1,11 @@
+\beamer@sectionintoc {1}{Models}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{All models}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{Surface maps}{4}{0}{1}
+\beamer@sectionintoc {2}{Methods}{5}{0}{2}
+\beamer@subsectionintoc {2}{1}{Adding layers}{5}{0}{2}
+\beamer@subsectionintoc {2}{2}{Area weighted averaging}{7}{0}{2}
+\beamer@sectionintoc {3}{Transits}{9}{0}{3}
+\beamer@subsectionintoc {3}{1}{Missing species}{10}{0}{3}
+\beamer@subsectionintoc {3}{2}{Spectra across models}{11}{0}{3}
+\beamer@sectionintoc {4}{Thermal Phase Curves}{12}{0}{4}
+\beamer@sectionintoc {5}{Conclusion}{14}{0}{5}

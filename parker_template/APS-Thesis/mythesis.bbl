@@ -1,0 +1,56 @@
+\begin{thebibliography}{}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\url}[1]{\href{#1}{#1}}
+\providecommand{\dodoi}[1]{doi:~\href{http://doi.org/#1}{\nolinkurl{#1}}}
+\providecommand{\doeprint}[1]{\href{http://ascl.net/#1}{\nolinkurl{http://ascl.net/#1}}}
+\providecommand{\doarXiv}[1]{\href{https://arxiv.org/abs/#1}{\nolinkurl{https://arxiv.org/abs/#1}}}
+
+\bibitem[{Baylor(1959)}]{baylor}
+Baylor, G.~I. 1959, Proc. Roy. Soc., London A, 294, 456
+
+\bibitem[{Crow(1968)}]{crow}
+Crow, M.~E. 1968, Stud. Appl. Math., 29, 21
+
+\bibitem[{Dole(1967)}]{dole}
+Dole, J.~D. 1967, Perturbation Methods in Applied Mathematics (Winsdell
+  Publishing Company)
+
+\bibitem[{Fabnis {et~al.}(1980)Fabnis, Giblet, \& McDormand}]{fabnis}
+Fabnis, J.~S., Giblet, H.~J., \& McDormand, H. 1980, J. Prop. and Power, 2, 157
+
+\bibitem[{Guillot \& Javalon(1989)}]{guillot}
+Guillot, F., \& Javalon, Z. 1989, J. Prop. and Power, 5, 331
+
+\bibitem[{IBM(2012)}]{softy}
+IBM. 2012, {S}{P}{S}{S} {S}tatistics, download from vendor site.
+\newblock \url{http://www.ibm.com/software/analytics/spss/}
+
+\bibitem[{Lao(1979)}]{lao:thesis}
+Lao, H. 1979, PhD thesis, University of Colorado at Boulder
+
+\bibitem[{Lao {et~al.}(1996)Lao, Cassoy, \& Kirkpatrick}]{lao:paper}
+Lao, Q., Cassoy, M.~N., \& Kirkpatrick, K. 1996, J. Fluid Mechanics, 2, 122
+
+\bibitem[{Lao {et~al.}(1997)Lao, Kassoy, \& Kirkkopru}]{lao:97}
+Lao, Q., Kassoy, D.~R., \& Kirkkopru, K. 1997, J. Fluid Mechanics, 3, 245
+
+\bibitem[{Mulick(1964)}]{mulick}
+Mulick, F.~C. 1964, AIAA J., 3, 1062
+
+\bibitem[{Mulick(1981)}]{mulick75}
+---. 1981, Comb. Sci. Tech., 19, 99
+
+\bibitem[{Richards \& Brown(1982)}]{richards}
+Richards, R.~S., \& Brown, A.~M. 1982, J. Prop. and Power, 5, 828
+
+\bibitem[{Smitty {et~al.}(1978)Smitty, Coach, \& H\"ondra}]{smitty}
+Smitty, T.~M., Coach, R.~L., \& H\"ondra, F.~B. 1978, in 16st Aerospace
+  Sciences Meeting, 78 No. 0112, AIAA
+
+\bibitem[{Taum(1982)}]{taum}
+Taum, J.~D. 1982, in 20th Aerospace Sciences Meeting, 82 No. 0297, AIAA
+
+\bibitem[{Zeddini(1981)}]{zeddini}
+Zeddini, R.~A. 1981, AIAA Journal, 14, 766
+
+\end{thebibliography}

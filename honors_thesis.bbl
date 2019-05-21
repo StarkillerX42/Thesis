@@ -1,0 +1,179 @@
+\begin{thebibliography}{}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\url}[1]{\href{#1}{#1}}
+\providecommand{\dodoi}[1]{doi:~\href{http://doi.org/#1}{\nolinkurl{#1}}}
+\providecommand{\doeprint}[1]{\href{http://ascl.net/#1}{\nolinkurl{http://ascl.net/#1}}}
+\providecommand{\doarXiv}[1]{\href{https://arxiv.org/abs/#1}{\nolinkurl{https://arxiv.org/abs/#1}}}
+
+\bibitem[{jws(2018)}]{jwstlaunch}
+ 2018, James Webb Space Telescope, Tech. rep., Goddard Space Flight Center
+
+\bibitem[{exo(2019)}]{exoplanetarchive}
+ 2019, NASA Exoplanet Archive, \url{https://exoplanetarchive.ipac.caltech.edu/}
+
+\bibitem[{{Afrin Badhan} {et~al.}(2019){Afrin Badhan}, {Wolf}, {Kopparapu},
+  {Arney}, {Kempton}, {Deming}, \& {Domagal-Goldman}}]{badhan19}
+{Afrin Badhan}, M., {Wolf}, E.~T., {Kopparapu}, R.~K., {et~al.} 2019, arXiv
+  e-prints, arXiv:1902.04086.
+\newblock \doarXiv{1902.04086}
+
+\bibitem[{{Batalha} {et~al.}(2017){Batalha}, {Mandell}, {Pontoppidan},
+  {Stevenson}, {Lewis}, {Kalirai}, {Earl}, {Greene}, {Albert}, \&
+  {Nielsen}}]{batalha17}
+{Batalha}, N.~E., {Mandell}, A., {Pontoppidan}, K., {et~al.} 2017, Publications
+  of the Astronomical Society of the Pacific, 129, 064501,
+  \dodoi{10.1088/1538-3873/aa65b0}
+
+\bibitem[{{Cowan} \& {Agol}(2008)}]{cowanagol08}
+{Cowan}, N.~B., \& {Agol}, E. 2008, \apjl, 678, L129, \dodoi{10.1086/588553}
+
+\bibitem[{{Delrez} {et~al.}(2018){Delrez}, {Gillon}, {Triaud}, {Demory}, {de
+  Wit}, {Ingalls}, {Agol}, {Bolmont}, {Burdanov}, {Burgasser}, {Carey},
+  {Jehin}, {Leconte}, {Lederer}, {Queloz}, {Selsis}, \& {Van
+  Grootel}}]{trappisttemp}
+{Delrez}, L., {Gillon}, M., {Triaud}, A.~H.~M.~J., {et~al.} 2018, \mnras, 475,
+  3577, \dodoi{10.1093/mnras/sty051}
+
+\bibitem[{{Ducrot} {et~al.}(2018){Ducrot}, {Sestovic}, {Morris}, {Gillon},
+  {Triaud}, {De Wit}, {Thimmarayappa}, {Agol}, {Almleaky}, {Burdanov},
+  {Burgasser}, {Delrez}, {Demory}, {Jehin}, {Leconte}, {McCormac}, {Murray},
+  {Queloz}, {Selsis}, {Thompson}, \& {Van Grootel}}]{ducrottrappistspectra}
+{Ducrot}, E., {Sestovic}, M., {Morris}, B.~M., {et~al.} 2018, \aj, 156, 218,
+  \dodoi{10.3847/1538-3881/aade94}
+
+\bibitem[{E~Walter(2010)}]{logarithm}
+E~Walter, M. 2010, Notices ofthe maerican Mathematical Society, 57
+
+\bibitem[{Fortelli {et~al.}(2016)Fortelli, Scafetta, \& Mazzarella}]{inversion}
+Fortelli, A., Scafetta, N., \& Mazzarella, A. 2016, Atmospheric Environment,
+  143, 218 , \dodoi{https://doi.org/10.1016/j.atmosenv.2016.08.050}
+
+\bibitem[{{Fortney} {et~al.}(2018){Fortney}, {Kataria}, {Stevenson}, {Zellem},
+  {Nielsen}, {Cuartas-Restrepo}, {Gaidos}, {Bergin}, {Meixner}, {Kane},
+  {David}, {Fraine}, {Kaltenegger}, {Tanner}, {Lopez-Morales}, {Greene},
+  {Danchi}, {Stassun}, {Kopparapu}, {Wolf}, {Meshkat}, {Hinkel}, {Pontoppidan},
+  {Dong}, {Bruno}, {Gelino}, {Airapetian}, {Agol}, {Deming}, {Haqq-Misra},
+  {Parenteau}, {Lisse}, {Tucker}, {Saxena}, {Wordsworth}, {Blake}, {Curry},
+  {Berta-Thompson}, {Fridlund}, {Su}, {Gao}, {Adibekyan}, {Heavens}, {Minniti},
+  {Rugheimer}, {Rackham}, {Mandt}, {de Val- Borro}, \&
+  {Robinson}}]{ostproposal}
+{Fortney}, J., {Kataria}, T., {Stevenson}, K., {et~al.} 2018, arXiv e-prints,
+  arXiv:1803.07730.
+\newblock \doarXiv{1803.07730}
+
+\bibitem[{{Gillon} {et~al.}(2017){Gillon}, {Triaud}, {Demory}, {Jehin}, {Agol},
+  {Deck}, {Lederer}, {de Wit}, {Burdanov}, {Ingalls}, {Bolmont}, {Leconte},
+  {Raymond}, {Selsis}, {Turbet}, {Barkaoui}, {Burgasser}, {Burleigh}, {Carey},
+  {Chaushev}, {Copperwheat}, {Delrez}, {Fernandes}, {Holdsworth}, {Kotze}, {Van
+  Grootel}, {Almleaky}, {Benkhaldoun}, {Magain}, \&
+  {Queloz}}]{trappistdiscovery}
+{Gillon}, M., {Triaud}, A.~H.~M.~J., {Demory}, B.-O., {et~al.} 2017, \nat, 542,
+  456, \dodoi{10.1038/nature21360}
+
+\bibitem[{{Haqq-Misra} {et~al.}(2018){Haqq-Misra}, {Wolf}, {Joshi}, {Zhang}, \&
+  {Kopparapu}}]{haqqmisra18}
+{Haqq-Misra}, J., {Wolf}, E.~T., {Joshi}, M., {Zhang}, X., \& {Kopparapu},
+  R.~K. 2018, \apj, 852, 67, \dodoi{10.3847/1538-4357/aa9f1f}
+
+\bibitem[{{Jenkins} {et~al.}(2015){Jenkins}, {Twicken}, {Batalha}, {Caldwell},
+  {Cochran}, {Endl}, {Latham}, {Esquerdo}, {Seader}, {Bieryla}, {Petigura},
+  {Ciardi}, {Marcy}, {Isaacson}, {Huber}, {Rowe}, {Torres}, {Bryson},
+  {Buchhave}, {Ramirez}, {Wolfgang}, {Li}, {Campbell}, {Tenenbaum},
+  {Sanderfer}, {Henze}, {Catanzarite}, {Gilliland}, \& {Borucki}}]{kepler452b}
+{Jenkins}, J.~M., {Twicken}, J.~D., {Batalha}, N.~M., {et~al.} 2015, \aj, 150,
+  56, \dodoi{10.1088/0004-6256/150/2/56}
+
+\bibitem[{Kite \& Ford(2018)}]{co2geology}
+Kite, E.~S., \& Ford, E.~B. 2018, The Astrophysical Journal, 864, 75
+
+\bibitem[{Koll \& Abbot(2015)}]{kollabbot15}
+Koll, D. D.~B., \& Abbot, D.~S. 2015, The Astrophysical Journal, 802, 21
+
+\bibitem[{Konacki {et~al.}(2003)Konacki, Torres, Jha, \&
+  Sasselov}]{firsttransit}
+Konacki, M., Torres, G., Jha, S., \& Sasselov, D.~D. 2003, \nat, 421, 507
+
+\bibitem[{{Kopparapu} {et~al.}(2017){Kopparapu}, {Wolf}, {Arney}, {Batalha},
+  {Haqq-Misra}, {Grimm}, \& {Heng}}]{ravihabitablemoist}
+{Kopparapu}, R.~k., {Wolf}, E.~T., {Arney}, G., {et~al.} 2017, \apj, 845, 5,
+  \dodoi{10.3847/1538-4357/aa7cf9}
+
+\bibitem[{{Latham} {et~al.}(1989){Latham}, {Mazeh}, {Stefanik}, {Mayor}, \&
+  {Burki}}]{firstradv}
+{Latham}, D.~W., {Mazeh}, T., {Stefanik}, R.~P., {Mayor}, M., \& {Burki}, G.
+  1989, \nat, 339, 38, \dodoi{10.1038/339038a0}
+
+\bibitem[{{Leconte} {et~al.}(2015){Leconte}, {Wu}, {Menou}, \&
+  {Murray}}]{asyncrotations}
+{Leconte}, J., {Wu}, H., {Menou}, K., \& {Murray}, N. 2015, Science, 347, 632,
+  \dodoi{10.1126/science.1258686}
+
+\bibitem[{{Mullally} {et~al.}(2018){Mullally}, {Thompson}, {Coughlin}, {Burke},
+  \& {Rowe}}]{kepler452dispute}
+{Mullally}, F., {Thompson}, S.~E., {Coughlin}, J.~L., {Burke}, C.~J., \&
+  {Rowe}, J.~F. 2018, \aj, 155, 210, \dodoi{10.3847/1538-3881/aabae3}
+
+\bibitem[{{Neale} {et~al.}(2012){Neale}, {Chen}, \& {Gettelman}}]{CAM5}
+{Neale}, R.~B., {Chen}, C., \& {Gettelman}, A. 2012
+
+\bibitem[{Newton(1846)}]{principia}
+Newton, S.~I. 1846, Mathematical Principles of Natural Philosophy
+
+\bibitem[{{Ricker} {et~al.}(2014){Ricker}, {Winn}, {Vanderspek}, {Latham},
+  {Bakos}, {Bean}, {Berta-Thompson}, {Brown}, {Buchhave}, {Butler}, {Butler},
+  {Chaplin}, {Charbonneau}, {Christensen-Dalsgaard}, {Clampin}, {Deming},
+  {Doty}, {De Lee}, {Dressing}, {Dunham}, {Endl}, {Fressin}, {Ge}, {Henning},
+  {Holman}, {Howard}, {Ida}, {Jenkins}, {Jernigan}, {Johnson}, {Kaltenegger},
+  {Kawai}, {Kjeldsen}, {Laughlin}, {Levine}, {Lin}, {Lissauer}, {MacQueen},
+  {Marcy}, {McCullough}, {Morton}, {Narita}, {Paegert}, {Palle}, {Pepe},
+  {Pepper}, {Quirrenbach}, {Rinehart}, {Sasselov}, {Sato}, {Seager},
+  {Sozzetti}, {Stassun}, {Sullivan}, {Szentgyorgyi}, {Torres}, {Udry}, \&
+  {Villasenor}}]{tesspredict}
+{Ricker}, G.~R., {Winn}, J.~N., {Vanderspek}, R., {et~al.} 2014, 9143, 914320,
+  \dodoi{10.1117/12.2063489}
+
+\bibitem[{Traub(2012)}]{nexoplanets}
+Traub, W.~A. 2012, The Astrophysical Journal, 745, 20
+
+\bibitem[{{Turbet} {et~al.}(2018){Turbet}, {Bolmont}, {Leconte}, {Forget},
+  {Selsis}, {Tobie}, {Caldas}, {Naar}, \& {Gillon}}]{dynamicsfate}
+{Turbet}, M., {Bolmont}, E., {Leconte}, J., {et~al.} 2018, \aap, 612, A86,
+  \dodoi{10.1051/0004-6361/201731620}
+
+\bibitem[{{Villanueva} {et~al.}(2018){Villanueva}, {Smith}, {Protopapa},
+  {Faggi}, \& {Mandell}}]{psgpaper}
+{Villanueva}, G.~L., {Smith}, M.~D., {Protopapa}, S., {Faggi}, S., \&
+  {Mandell}, A.~M. 2018, \jqsrt, 217, 86, \dodoi{10.1016/j.jqsrt.2018.05.023}
+
+\bibitem[{{von Essen} {et~al.}(2018){von Essen}, {Mallonn}, {Welbanks},
+  {Madhusudhan}, {Pinhas}, {Bouy}, \& {Weis Hansen}}]{essenwasp33b}
+{von Essen}, C., {Mallonn}, M., {Welbanks}, L., {et~al.} 2018, arXiv e-prints,
+  arXiv:1811.02573.
+\newblock \doarXiv{1811.02573}
+
+\bibitem[{Wang {et~al.}(2005)Wang, Zhang, \& Dai}]{meanearthtemp}
+Wang, J., Zhang, L., \& Dai, A. 2005, Journal of Geophysical Research:
+  Atmospheres, 110, \dodoi{10.1029/2005JD006215}
+
+\bibitem[{{Way} {et~al.}(2018){Way}, {Del Genio}, \& {Amundsen}}]{venusgcm}
+{Way}, M.~J., {Del Genio}, A., \& {Amundsen}, D.~S. 2018, arXiv e-prints,
+  arXiv:1802.05434.
+\newblock \doarXiv{1802.05434}
+
+\bibitem[{{Wolf}(2017)}]{wolf17}
+{Wolf}, E.~T. 2017, \apj, 839, L1, \dodoi{10.3847/2041-8213/aa693a}
+
+\bibitem[{Wolf(2018)}]{wolf18}
+Wolf, E.~T. 2018, The Astrophysical Journal Letters, 855, L14
+
+\bibitem[{{Wolf} {et~al.}(2017){Wolf}, {Shields}, {Kopparapu}, {Haqq-Misra}, \&
+  {Toon}}]{wolf17constraints}
+{Wolf}, E.~T., {Shields}, A.~L., {Kopparapu}, R.~K., {Haqq-Misra}, J., \&
+  {Toon}, O.~B. 2017, \apj, 837, 107, \dodoi{10.3847/1538-4357/aa5ffc}
+
+\bibitem[{{Yang} {et~al.}(2019){Yang}, {Abbot}, {Koll}, {Hu}, \&
+  {Showman}}]{yang19}
+{Yang}, J., {Abbot}, D.~S., {Koll}, D. D.~B., {Hu}, Y., \& {Showman}, A.~P.
+  2019, \apj, 871, 29, \dodoi{10.3847/1538-4357/aaf1a8}
+
+\end{thebibliography}
