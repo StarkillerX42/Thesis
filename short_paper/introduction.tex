@@ -1,0 +1,59 @@
+\section{Introduction}
+\label{sec:intro}
+We have found a number of terrestrial
+ exoplanets which resemble Earth in mass, size, and most crucially, solar
+ irradiance. These terrestrial exoplanets are the most likely candidates in the
+ search for habitable worlds beyond Earth, and by extension, the most likely
+ places to discover extraterrestrial life or a future home for humanity. To
+ date, the list of exoplanets in the classical habitable zone is short, and few
+ are close to Earth, but this will soon change with the recently launched
+ Transiting Exoplanet Survey Satellite (TESS). TESS is expected to discover
+ thousands of exoplanets smaller than Neptune and dozens of Earth sized planets,
+ and was optimized for finding planets that are closer to Earth
+ \citep{tesspredict}. In conjunction with the James Webb Space Telescope (JWST),
+ we can expect increased quality and quantity of habitable exoplanet
+ observations.
+
+The most easily detectable exoplanets orbit M-dwarfs. These exoplanets are
+ likely tidally locked due to their close orbit
+ to their host star \citep{dynamicsfate}.The
+ atmospheres of tidally locked planets behave differently from any atmosphere
+ we are previously
+ familiar with, so the only way to characterize their atmospheres is via global
+ circulation models (GCMs). GCMs were invented to predict
+ weather or climate change, and have proven scientifically valuable for a number
+ of different
+ planets throughout the solar system \citep{venusgcm}. Many astronomers have
+ made predictions of what JWST will see on exoplanets, but many of these
+ predictions assume that habitable exoplanet atmospheres will be replicas of
+ Earth \citep{ostproposal}. However, recent 3D climate modeling experiments
+ demonstrate that exoplanets are typically very different than Earth. For
+ example, \citet{wolf18} found that although TRAPPIST-1 d receives approximately
+ the same amount of solar irradiance as Earth, TRAPPIST-1 e makes a better
+ candidate for habitability with only 60\% the solar irradiance of Earth.
+
+With the launch of JWST on the horizon, it is essential that we know what to
+ expect from observations, and atmospheric models are the best method
+ for constraining predictions. Simply assuming a tidally locked
+ exoplanet will appear identical to Earth is unreasonable and can lead to
+ inaccurate conclusions. Using GCM simulations for planets in the TRAPPIST-1
+ system, we can self-consistently predict what the TRAPPIST-1 exoplanets may look
+ like with regards to cloud distributions, precipitation, and temperature.
+ NASA's Planetary Spectrum Generator (PSG) can then be used to generate spectra
+ for these climate models, giving us more accurate predictions of what JWST
+ might be able to see \citep{psgpaper}.
+
+The PSG can allow us to measure the
+ thermal emission of the planet as it rotates relative to the Earth over its
+ year. Thermal phase curves measure the change in thermal brightness of an
+ exoplanet as it orbits its star, and can be variable over time. This technique
+ serves as the best method to resolve features like clouds on exoplanets, and
+ by extension, the planet's climate.
+
+Here I will calculate thermal phase curves
+ of several habitable zone exoplanets, but first I will review climate models
+ from \citet{wolf17, wolf18}, focusing on characterizing the surface temperature
+ and the substellar
+ clouds of those models, as well as comparing fast and slow rotators. I
+ will explain the data pipeline around the PSG, which I will use to simulate
+ spectra that will be reduced into thermal phase curves.

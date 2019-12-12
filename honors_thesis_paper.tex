@@ -1,0 +1,141 @@
+% !TEX TS-program = pdflatex
+% !TEX encoding = UTF-8 Unicode
+% !TEX spellcheck = en_US
+% !BIB TS-program = natbib
+% Written by Dylan Gatlin (dgatlin5@gmail.com)
+\documentclass[preprint2]{aastex63}
+
+\usepackage{amssymb}        % to get all AMS symbols
+\usepackage{graphicx}       % to insert figures
+\usepackage{hyperref}       % PDF hyperreferences??
+\usepackage{natbib} % For citations [authoryear, sort]
+\usepackage[yyyymmdd]{datetime} % For YYYY-MM-DD dates
+\usepackage{todonotes}      % In case you want to work on something later
+\usepackage[nice]{nicefrac} % For inline fractions
+% \usepackage{multicol}       % For twocolumn equations
+% \usepackage{multirow}       % For complicated tables
+\usepackage{amsmath}        % For calculus notation like partials and derivatives
+\usepackage{commath}        % Companion to amsmath
+\usepackage{textcomp}
+% \usepackage{siunitx}        % Proper unit notation
+% \input macros.tex           % For defining common symbols
+
+%%%%%%%%%%%%   All the preamble material:   %%%%%%%%%%%%
+
+\shorttitle{Tidally Locked Thermal Phase Curves}
+\shortauthors{Gatlin et al.}
+
+% \degree{Bachelors in Arts}      %  #1 {long descr.}
+    % {B.A., Astrophysics}        %  #2 {short descr.}
+% \dept{Department of}            %  #1 {designation}
+    % {Astrophysical and Planetary Science}       %  #2 {name}
+
+% \advisor{Dr.}               %  #1 {title}
+%     {Eric T. Wolf}          %  #2 {name}
+% \advisordept{Atmospheric and Oceanic Sciences}
+% \reader{Prof. Ann-Marie Madigan}        %  2nd person to sign thesis
+% \readerdept{Astrophysical and Planetary Sciences}
+% \readerThree{Prof. David Brain}  % 3rd person to sign thesis
+% \readerThreedept{Astrophysical and Planetary Sciences}
+% \readerFour{Prof. Daniel Jones}
+% \readerFourdept{Arts and Sciences Honors Program}
+
+% \defenseDate{\formatdate{3}{5}{2019}} % (m)m (d)d yyyy
+
+%
+
+% \dedication[Dedication]{    % NEVER use \OnePageChapter here.
+%     \begin{center}To my Grandpa, Dr. Terry Flanagan\\
+%     1938 -- 2018
+%     \end{center}
+% }
+% 
+% \acknowledgements{  \OnePageChapter % *MUST* BE ONLY ONE PAGE!
+% Thank you to my family who helped encourage me on my way to becoming an
+%  astrophysicist. To my dad, my mom, and my sister, Mark, Erin, and Carolyn
+%  Gatlin. To my girlfriend, Grace Marshall.
+
+% Thank you to my advisors, Susan (Astromom) Armstrong and David Brain.
+%  To the professors I've worked alongside, Prof. Jeremy Darling and
+%  Prof. Seth Hornstein. To
+%  my research advisors, Prof. Guy Stringfellow and Dr. Eric Wolf.
+
+% Thank you to everyone who read my drafts, Prof. Donald Wilkerson and all my peers
+%  in PHYS 3050.
+
+% Thank you to my professors Prof. Zach Berta-Thompson, Prof. Nick Schneider,
+%  Prof. John Bally,
+%  Dr. Mathis Habich, Prof. Melissa Nigro, Prof. Jen Kay, Prof. Peter Pilewskie,
+%  and Prof. Alexandra Jahn. To my high school math teacher, Laurie Buchanan.
+
+% Thank you to my co-investigators, Dr. Eric Wolf, Dr. Ravi Kopparapu,
+% Dr. Geronimo Villanueva, and Dr. Avi Mandell.
+
+% \facilities{Exoplanet Archive, Planetary Spectrum Generator}}
+
+% \IRBprotocol{E927F29.001X}    % optional!
+
+% \ToCisShort % use this only for 1-page Table of Contents
+
+% \LoFisShort % use this only for 1-page Table of Figures
+% \emptyLoF % use this if there is no List of Figures
+
+% \LoTisShort % use this only for 1-page Table of Tables
+% \emptyLoT % use this if there is no List of Tables
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%       BEGIN DOCUMENT...         %%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\title{Thermal Phase Curve Simulations on the Terrestrial Exoplanet
+ TRAPPIST-1 e}
+
+\author{Dylan Gatlin}
+\affiliation{University of Colorado Boulder \\
+ 2000 Colorado Ave. \\
+ Boulder, CO 80309, USA}
+
+\begin{abstract}
+In order to better direct future exoplanetary research, we must be
+ able to accurately predict what telescopes like the James Webb Space Telescope
+ (JWST) will be able to detect. I have constructed a data pipeline that takes
+ 3D climate models as inputs, then runs a line by line radiative transfer model
+ called the Planetary Spectrum Generator (PSG) to generate simulated spectra.
+ This pipeline can help determine which features of an exoplanetary atmosphere
+ are observable using JWST. This paper focuses primarily on a strong candidate
+ for a habitable exoplanet, TRAPPIST-1 e, which is assumed to be tidally locked.
+ Recent climate modeling studies indicate that not all tidally locked exoplanets
+ are the same. Exoplanets with long years will have large, substellar clouds,
+ while exoplanets with short years will have a significant Coriolis force,
+ which will result in a smaller substellar cloud and more intense zonal winds.
+ The thermal emission of a planet depends strongly on the spatial
+ distribution of clouds, which would change from the perspective of a distant
+ observer over the exoplanet's year. Observing an exoplanet over its year will
+ produce a thermal phase curve, which may be able to detect features like the
+ size of the substellar cloud or the presence of a runaway greenhouse effect.
+ Although the simulations are done using spectra, observations of
+ thermal phase curves are more well suited for photometry, and would likely need
+ to be characterized relative to simulated thermal phase curves.
+
+\end{abstract}
+ 
+\input ./short_paper/introduction.tex
+% \input ./background/background.tex
+% \input ./models/models.tex
+% \input ./methods/methods.tex
+% \input ./spectra/spectra.tex
+% \input ./tpc/thermal_phase_curves.tex
+% \input ./conclusion/conclusion.tex
+
+%%%%%%%%%   then the Bibliography, if any   %%%%%%%%%
+\bibliographystyle{aasjournal}  % or "siam", or "alpha", etc.
+% \nocite{*}      % list all refs in database, cited or not
+\bibliography{thesis_citations}     % Bib database in "refs.bib"
+
+%%%%%%%%%   then the Appendices, if any   %%%%%%%%%
+% \appendix
+% \input appendix.tex
+
+\end{document}
+
